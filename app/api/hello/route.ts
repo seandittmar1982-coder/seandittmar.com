@@ -1,3 +1,5 @@
-export default function GET() {
-    return Response.json({message: "Hello from route handler!"})
+import { NextResponse } from "next/server";
+
+export function GET() {
+  return NextResponse.json({ message: "Hello from route handler!" });
 }

@@ -15,8 +15,8 @@ export default function Hello() {
     }, [])
     return (
         <div>
-            <p>Hello from client component <span>/components/hello.tsx</span>(using fetch to access backend via useEffect: <span>/api/hello</span>)</p>
-            <p>Result from route handler: {resultFromRouteHandler}</p>
+            <p className="card">Hello from client component <code>/components/hello.tsx</code>(using fetch to access backend via useEffect: <code>/api/hello</code> ) </p>
+            <p className="card">Result from route handler: {resultFromRouteHandler}</p>
         </div>
     )
 }
